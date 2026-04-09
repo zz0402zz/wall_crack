@@ -1,0 +1,10 @@
+<View>
+  <Header value="Dam Crack Segmentation" />
+  <Text name="instructions" value="只标真实裂缝，不要把整条黑色接缝或填充带整体标进去。" />
+
+  <Image name="image" value="$image" zoom="true" rotateControl="true" />
+
+  <BrushLabels name="brush_labels" toName="image">
+    <Label value="crack" background="#FF5A5F" />
+  </BrushLabels>
+</View>
