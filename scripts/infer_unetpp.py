@@ -41,6 +41,25 @@ def predict_tile(model: torch.nn.Module, tile: np.ndarray, transform, device: st
     return cv2.resize(probs, (tile.shape[1], tile.shape[0]), interpolation=cv2.INTER_LINEAR)
 
 
+def draw_mask_outline(
+    image: np.ndarray,
+    mask: np.ndarray,
+    *,
+    color: tuple[int, int, int] = (64, 255, 96),
+    thickness: int = 2,
+) -> np.ndarray:
+    canvas = image.copy()
+    contours, _ = cv2.findContours(mask.astype(np.uint8), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    if contours:
+        cv2.drawContours(canvas, contours, -1, color, thickness=thickness)
+    return canvas
+
+
+def make_side_by_side(left: np.ndarray, right: np.ndarray) -> np.ndarray:
+    gap = np.full((left.shape[0], 12, 3), 255, dtype=np.uint8)
+    return np.concatenate([left, gap, right], axis=1)
+
+
 def main() -> None:
     args = parse_args()
     device = resolve_device(args.device)
@@ -68,14 +87,24 @@ def main() -> None:
     output_dir = ensure_dir(args.output_dir)
     mask_dir = ensure_dir(output_dir / "masks")
     overlay_dir = ensure_dir(output_dir / "overlays")
+    outline_dir = ensure_dir(output_dir / "outlines")
+    compare_dir = ensure_dir(output_dir / "comparisons")
     report_dir = ensure_dir(output_dir / "reports")
 
     mask_path = mask_dir / f"{args.image.stem}_mask.png"
     overlay_path = overlay_dir / f"{args.image.stem}_overlay.jpg"
+    outline_path = outline_dir / f"{args.image.stem}_outline.jpg"
+    compare_path = compare_dir / f"{args.image.stem}_compare.jpg"
     report_path = report_dir / f"{args.image.stem}_report.json"
 
+    overlay = overlay_mask(image, mask)
+    outline = draw_mask_outline(image, mask)
+    compare = make_side_by_side(image, outline)
+
     save_binary_mask(mask_path, mask)
-    save_rgb_image(overlay_path, overlay_mask(image, mask))
+    save_rgb_image(overlay_path, overlay)
+    save_rgb_image(outline_path, outline)
+    save_rgb_image(compare_path, compare)
     report_path.write_text(
         json.dumps(
             {
@@ -87,6 +116,8 @@ def main() -> None:
                 "positive_ratio": float(mask.mean()),
                 "mask_path": str(mask_path.resolve()),
                 "overlay_path": str(overlay_path.resolve()),
+                "outline_path": str(outline_path.resolve()),
+                "compare_path": str(compare_path.resolve()),
                 "num_tiles": len(windows),
             },
             indent=2,
@@ -97,9 +128,10 @@ def main() -> None:
 
     print(f"mask: {mask_path}")
     print(f"overlay: {overlay_path}")
+    print(f"outline: {outline_path}")
+    print(f"compare: {compare_path}")
     print(f"report: {report_path}")
 
 
 if __name__ == "__main__":
     main()
-
