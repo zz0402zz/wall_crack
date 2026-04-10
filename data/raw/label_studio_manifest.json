@@ -1,415 +1,415 @@
 [
   {
     "task_id": 1,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192243.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192243.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192243.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192243.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192243.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192243.png",
     "positive_pixels": 93473
   },
   {
     "task_id": 2,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192245.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192245.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192245.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192245.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192245.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192245.png",
     "positive_pixels": 23719
   },
   {
     "task_id": 3,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192246.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192246.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192246.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192246.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192246.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192246.png",
     "positive_pixels": 30191
   },
   {
     "task_id": 4,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192248.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192248.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192248.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192248.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192248.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192248.png",
     "positive_pixels": 115391
   },
   {
     "task_id": 5,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192249.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192249.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192249.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192249.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192249.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192249.png",
     "positive_pixels": 65078
   },
   {
     "task_id": 6,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192251.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192251.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192251.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192251.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192251.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192251.png",
     "positive_pixels": 21741
   },
   {
     "task_id": 7,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192253.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192253.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192253.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192253.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192253.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192253.png",
     "positive_pixels": 111131
   },
   {
     "task_id": 8,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192255.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192255.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192255.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192255.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192255.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192255.png",
     "positive_pixels": 70049
   },
   {
     "task_id": 9,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192257.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192257.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192257.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192257.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192257.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192257.png",
     "positive_pixels": 32028
   },
   {
     "task_id": 10,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192301.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192301.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192301.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192301.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192301.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192301.png",
     "positive_pixels": 61646
   },
   {
     "task_id": 11,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192303.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192303.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192303.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192303.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192303.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192303.png",
     "positive_pixels": 73231
   },
   {
     "task_id": 12,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192311.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192311.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192311.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192311.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192311.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192311.png",
     "positive_pixels": 158395
   },
   {
     "task_id": 13,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192312.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192312.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192312.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192312.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192312.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192312.png",
     "positive_pixels": 45523
   },
   {
     "task_id": 14,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192314.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192314.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192314.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192314.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192314.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192314.png",
     "positive_pixels": 26140
   },
   {
     "task_id": 15,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192316.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192316.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192316.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192316.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192316.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192316.png",
     "positive_pixels": 257930
   },
   {
     "task_id": 16,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192318.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192318.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192318.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192318.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192318.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192318.png",
     "positive_pixels": 71928
   },
   {
     "task_id": 17,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192319.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192319.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192319.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192319.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192319.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192319.png",
     "positive_pixels": 25534
   },
   {
     "task_id": 18,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192322.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192322.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192322.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192322.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192322.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192322.png",
     "positive_pixels": 124245
   },
   {
     "task_id": 19,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192323.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192323.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192323.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192323.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192323.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192323.png",
     "positive_pixels": 87651
   },
   {
     "task_id": 20,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192325.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192325.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192325.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192325.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192325.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192325.png",
     "positive_pixels": 41601
   },
   {
     "task_id": 21,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192328.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192328.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192328.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192328.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192328.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192328.png",
     "positive_pixels": 75156
   },
   {
     "task_id": 22,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192329.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192329.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192329.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192329.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192329.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192329.png",
     "positive_pixels": 100177
   },
   {
     "task_id": 23,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192331.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192331.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192331.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192331.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192331.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192331.png",
     "positive_pixels": 35959
   },
   {
     "task_id": 24,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192340.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192340.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192340.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192340.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192340.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192340.png",
     "positive_pixels": 151484
   },
   {
     "task_id": 25,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192342.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192342.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192342.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192342.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192342.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192342.png",
     "positive_pixels": 69040
   },
   {
     "task_id": 26,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192343.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192343.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192343.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192343.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192343.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192343.png",
     "positive_pixels": 23686
   },
   {
     "task_id": 27,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192345.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192345.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192345.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192345.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192345.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192345.png",
     "positive_pixels": 54807
   },
   {
     "task_id": 28,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192346.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192346.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192346.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192346.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192346.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192346.png",
     "positive_pixels": 37960
   },
   {
     "task_id": 29,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192348.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192348.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192348.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192348.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192348.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192348.png",
     "positive_pixels": 16183
   },
   {
     "task_id": 30,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192350.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192350.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192350.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192350.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192350.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192350.png",
     "positive_pixels": 75166
   },
   {
     "task_id": 31,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192351.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192351.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192351.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192351.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192351.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192351.png",
     "positive_pixels": 83521
   },
   {
     "task_id": 32,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192352.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192352.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192352.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192352.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192352.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192352.png",
     "positive_pixels": 50673
   },
   {
     "task_id": 33,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192355.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192355.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192355.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192355.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192355.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192355.png",
     "positive_pixels": 278571
   },
   {
     "task_id": 34,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192357.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192357.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192357.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192357.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192357.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192357.png",
     "positive_pixels": 67884
   },
   {
     "task_id": 35,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192358.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192358.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192358.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192358.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192358.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192358.png",
     "positive_pixels": 79949
   },
   {
     "task_id": 36,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192401.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192401.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192401.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192401.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192401.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192401.png",
     "positive_pixels": 30658
   },
   {
     "task_id": 37,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192402.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192402.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192402.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192402.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192402.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192402.png",
     "positive_pixels": 33043
   },
   {
     "task_id": 38,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192404.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192404.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192404.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192404.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192404.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192404.png",
     "positive_pixels": 24785
   },
   {
     "task_id": 39,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192406.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192406.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192406.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192406.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192406.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192406.png",
     "positive_pixels": 64631
   },
   {
     "task_id": 40,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192408.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192408.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192408.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192408.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192408.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192408.png",
     "positive_pixels": 5378
   },
   {
     "task_id": 41,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192409.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192409.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192409.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192409.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192409.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192409.png",
     "positive_pixels": 3219
   },
   {
     "task_id": 42,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192412.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192412.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192412.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192412.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192412.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192412.png",
     "positive_pixels": 12117
   },
   {
     "task_id": 43,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192414.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192414.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192414.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192414.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192414.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192414.png",
     "positive_pixels": 5369
   },
   {
     "task_id": 44,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192416.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192416.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192416.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192416.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192416.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192416.png",
     "positive_pixels": 5330
   },
   {
     "task_id": 45,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192425.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192425.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192425.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192425.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192425.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192425.png",
     "positive_pixels": 3517
   },
   {
     "task_id": 46,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192426.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192426.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192426.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192426.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192426.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192426.png",
     "positive_pixels": 5510
   },
   {
     "task_id": 47,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192428.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192428.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192428.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192428.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192428.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192428.png",
     "positive_pixels": 3352
   },
   {
     "task_id": 48,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192509.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192509.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192509.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192509.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192509.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192509.png",
     "positive_pixels": 14291
   },
   {
     "task_id": 49,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192510.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192510.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192510.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192510.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192510.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192510.png",
     "positive_pixels": 5169
   },
   {
     "task_id": 50,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192512.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192512.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192512.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192512.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192512.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192512.png",
     "positive_pixels": 2385
   },
   {
     "task_id": 51,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192514.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192514.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192514.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192514.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192514.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192514.png",
     "positive_pixels": 8753
   },
   {
     "task_id": 52,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192515.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192515.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192515.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192515.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192515.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192515.png",
     "positive_pixels": 4844
   },
   {
     "task_id": 53,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192517.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192517.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192517.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192517.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192517.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192517.png",
     "positive_pixels": 2216
   },
   {
     "task_id": 54,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192519.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192519.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192519.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192519.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192519.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192519.png",
     "positive_pixels": 9444
   },
   {
     "task_id": 55,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192520.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192520.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192520.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192520.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192520.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192520.png",
     "positive_pixels": 3775
   },
   {
     "task_id": 56,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192522.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192522.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192522.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192522.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192522.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192522.png",
     "positive_pixels": 3347
   },
   {
     "task_id": 57,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192523.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192523.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192523.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192523.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192523.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192523.png",
     "positive_pixels": 11315
   },
   {
     "task_id": 58,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192525.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192525.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192525.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192525.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192525.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192525.png",
     "positive_pixels": 3198
   },
   {
     "task_id": 59,
-    "source_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192527.jpg",
-    "output_image": "/Users/zz/Applications/detecion_wall/data/raw/images/IMG20260408192527.jpg",
-    "output_mask": "/Users/zz/Applications/detecion_wall/data/raw/masks/IMG20260408192527.png",
+    "source_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192527.jpg",
+    "output_image": "D:\\pythonProject\\wall_crack\\data\\raw\\images\\IMG20260408192527.jpg",
+    "output_mask": "D:\\pythonProject\\wall_crack\\data\\raw\\masks\\IMG20260408192527.png",
     "positive_pixels": 1376
   }
 ]
