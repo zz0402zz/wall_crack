@@ -2,7 +2,7 @@
 
 项目主线：
 
-Label Studio -> U-Net++ (EfficientNet-B2) -> mask/overlay/report
+Label Studio -> U-Net++ (EfficientNet-B2) -> mask/overlay/outline/compare/report
 
 ## 目录说明
 
@@ -42,7 +42,7 @@ python scripts/make_label_studio_tasks.py
 项目自带的是 shell 脚本（Linux/macOS）。Windows 推荐直接运行：
 
 ```bat
-label_studio start
+label-studio start
 ```
 
 在网页中新建项目后：
@@ -89,7 +89,41 @@ python scripts/train_unetpp.py --dataset-root data/processed/dam_crack_unetpp_v1
 
 ## 6. 推理
 
-```bat
-python scripts/infer_unetpp.py --checkpoint runs/unetpp_b2_v2/checkpoints/best.pt --image data/test/images/1.jpg 
+命令行推理和小窗口推理默认都会把结果输出到：
+
+```text
+outputs/infer_results/
 ```
 
+目录结构为：
+
+```text
+outputs/infer_results/
+├── masks/
+├── overlays/
+├── outlines/
+├── comparisons/
+└── reports/
+```
+
+```bat
+python scripts/infer_unetpp.py --checkpoint runs/unetpp_b2_v1/checkpoints/best.pt --image data/raw/images/example.jpg
+```
+
+## 7. 启动小窗口推理界面
+
+```bash
+.venv/bin/python scripts/infer_gui.py
+```
+
+界面支持：
+
+1. 选择图片
+2. 选择 checkpoint
+3. 运行推理
+4. 切换查看 `Mask / Overlay / Outline / Compare`
+
+说明：
+
+1. 小窗口默认输出目录也是 `outputs/infer_results`
+2. `Compare` 为三联图：原图 / Overlay / Outline
