@@ -50,6 +50,7 @@ def run_epoch(
     loss_fn: torch.nn.Module,
     optimizer: torch.optim.Optimizer | None,
     device: str,
+    scaler: torch.cuda.amp.GradScaler | None = None,
 ) -> dict[str, float]:
     is_train = optimizer is not None
     model.train(is_train)
@@ -65,13 +66,19 @@ def run_epoch(
         masks = batch["mask"].to(device)
 
         if is_train:
-            logits = model(images)
-            loss = loss_fn(logits, masks)
+            with torch.cuda.amp.autocast(enabled=(device == "cuda")):
+                logits = model(images)
+                loss = loss_fn(logits, masks)
             optimizer.zero_grad(set_to_none=True)
-            loss.backward()
-            optimizer.step()
+            if scaler is not None:
+                scaler.scale(loss).backward()
+                scaler.step(optimizer)
+                scaler.update()
+            else:
+                loss.backward()
+                optimizer.step()
         else:
-            with torch.no_grad():
+            with torch.no_grad(), torch.cuda.amp.autocast(enabled=(device == "cuda")):
                 logits = model(images)
                 loss = loss_fn(logits, masks)
 
@@ -127,20 +134,21 @@ def main() -> None:
         batch_size=args.batch_size,
         shuffle=True,
         num_workers=args.num_workers,
-        pin_memory=(device in ("cuda", "mps")),
+        pin_memory=(device == "cuda"),
     )
     val_loader = DataLoader(
         val_ds,
         batch_size=max(1, args.batch_size),
         shuffle=False,
         num_workers=args.num_workers,
-        pin_memory=(device in ("cuda", "mps")),
+        pin_memory=(device == "cuda"),
     )
 
     encoder_weights = None if args.encoder_weights.lower() == "none" else args.encoder_weights
     model = build_model(encoder_name=args.encoder_name, encoder_weights=encoder_weights).to(device)
     loss_fn = DiceBCELoss().to(device)
     optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
+    scaler = torch.cuda.amp.GradScaler(enabled=(device == "cuda"))
 
     history_path = run_dir / "history.csv"
     config_path = run_dir / "config.json"
@@ -176,6 +184,7 @@ def main() -> None:
                 loss_fn=loss_fn,
                 optimizer=optimizer,
                 device=device,
+                scaler=scaler,
             )
             if val_ids:
                 val_metrics = run_epoch(

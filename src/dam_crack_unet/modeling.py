@@ -27,18 +27,16 @@ def build_model(encoder_name: str = "efficientnet-b2", encoder_weights: str | No
     )
 
 
-def dice_score_from_logits(logits: torch.Tensor, targets: torch.Tensor, threshold: float = 0.5) -> float:
-    probs = torch.sigmoid(logits)
-    preds = (probs >= threshold).float()
+def dice_score_from_logits(logits: torch.Tensor, targets: torch.Tensor) -> float:
+    preds = (logits >= 0.0).float()
     intersection = (preds * targets).sum(dim=(1, 2, 3))
     union = preds.sum(dim=(1, 2, 3)) + targets.sum(dim=(1, 2, 3))
     score = (2.0 * intersection + EPSILON) / (union + EPSILON)
     return float(score.mean().item())
 
 
-def iou_score_from_logits(logits: torch.Tensor, targets: torch.Tensor, threshold: float = 0.5) -> float:
-    probs = torch.sigmoid(logits)
-    preds = (probs >= threshold).float()
+def iou_score_from_logits(logits: torch.Tensor, targets: torch.Tensor) -> float:
+    preds = (logits >= 0.0).float()
     intersection = (preds * targets).sum(dim=(1, 2, 3))
     union = preds.sum(dim=(1, 2, 3)) + targets.sum(dim=(1, 2, 3)) - intersection
     score = (intersection + EPSILON) / (union + EPSILON)

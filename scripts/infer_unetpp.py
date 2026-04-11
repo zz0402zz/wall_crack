@@ -65,7 +65,7 @@ def main() -> None:
     device = resolve_device(args.device)
     image = load_rgb_image(args.image)
 
-    payload = torch.load(args.checkpoint, map_location="cpu", weights_only=False)
+    payload = torch.load(args.checkpoint, map_location="cpu", weights_only=True)
     model = build_model(encoder_name=args.encoder_name, encoder_weights=None)
     model.load_state_dict(payload["model"])
     model.to(device)

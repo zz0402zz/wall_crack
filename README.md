@@ -90,6 +90,6 @@ python scripts/train_unetpp.py --dataset-root data/processed/dam_crack_unetpp_v1
 ## 6. 推理
 
 ```bat
-python scripts/infer_unetpp.py --checkpoint runs/unetpp_b2_v1/checkpoints/best.pt --image data/raw/images/example.jpg --output-dir outputs/unetpp_demo
+python scripts/infer_unetpp.py --checkpoint runs/unetpp_b2_v2/checkpoints/best.pt --image data/test/images/1.jpg 
 ```
 
