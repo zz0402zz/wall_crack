@@ -2,7 +2,7 @@
 
 项目主线：
 
-Label Studio -> U-Net++ (EfficientNet-B2) -> mask/overlay/outline/compare/report
+Label Studio -> U-Net++ (EfficientNet-B2) -> mask/overlay/outline/report
 
 ## 目录说明
 
@@ -52,17 +52,12 @@ label-studio start
 
 ## 3. 导回标注并生成 masks（关键）
 
-把导出的 JSON 放到：
-
-```text
-label_studio/exports/picture.json
-名字一定要叫picture
-```
+把导出的 JSON 放到 `label_studio/exports/` 目录即可，文件名可以自定义。
 
 执行转换：
 
 ```bat
-python scripts/import_label_studio.py --tasks label_studio/exports/picture.json --data-key image --overwrite
+python scripts/import_label_studio.py --tasks label_studio/exports/your_export.json --data-key image --overwrite
 ```
 
 成功后应在 data/raw/masks 下看到与图片同名的 .png 文件。
@@ -102,7 +97,6 @@ outputs/infer_results/
 ├── masks/
 ├── overlays/
 ├── outlines/
-├── comparisons/
 └── reports/
 ```
 
@@ -119,11 +113,9 @@ python scripts/infer_gui.py
 界面支持：
 
 1. 选择图片
-2. 选择 checkpoint
-3. 运行推理
-4. 切换查看 `Mask / Overlay / Outline / Compare`
+2. 运行推理
+3. 切换查看 `Mask / Overlay / Outline`
 
 说明：
 
 1. 小窗口默认输出目录也是 `outputs/infer_results`
-2. `Compare` 为三联图：原图 / Overlay / Outline

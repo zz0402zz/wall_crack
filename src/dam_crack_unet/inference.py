@@ -36,9 +36,12 @@ def draw_mask_outline(
     return canvas
 
 
-def make_triptych(first: np.ndarray, second: np.ndarray, third: np.ndarray) -> np.ndarray:
-    gap = np.full((first.shape[0], 12, 3), 255, dtype=np.uint8)
-    return np.concatenate([first, gap, second, gap, third], axis=1)
+def classify_damage_level(positive_ratio: float) -> str:
+    if positive_ratio < 0.003:
+        return "轻度"
+    if positive_ratio < 0.015:
+        return "中度"
+    return "重度"
 
 
 def run_inference(
@@ -74,28 +77,26 @@ def run_inference(
 
     mean_probs = probs_sum / np.maximum(counts, EPSILON)
     mask = (mean_probs >= threshold).astype(np.uint8)
+    positive_ratio = float(mask.mean())
+    damage_level = classify_damage_level(positive_ratio)
 
     output_dir = ensure_dir(output_dir)
     mask_dir = ensure_dir(output_dir / "masks")
     overlay_dir = ensure_dir(output_dir / "overlays")
     outline_dir = ensure_dir(output_dir / "outlines")
-    compare_dir = ensure_dir(output_dir / "comparisons")
     report_dir = ensure_dir(output_dir / "reports")
 
     mask_path = mask_dir / f"{image_path.stem}_mask.png"
     overlay_path = overlay_dir / f"{image_path.stem}_overlay.jpg"
     outline_path = outline_dir / f"{image_path.stem}_outline.jpg"
-    compare_path = compare_dir / f"{image_path.stem}_compare.jpg"
     report_path = report_dir / f"{image_path.stem}_report.json"
 
     overlay = overlay_mask(image, mask)
     outline = draw_mask_outline(image, mask)
-    compare = make_triptych(image, overlay, outline)
 
     save_binary_mask(mask_path, mask)
     save_rgb_image(overlay_path, overlay)
     save_rgb_image(outline_path, outline)
-    save_rgb_image(compare_path, compare)
 
     report = {
         "image": str(image_path.resolve()),
@@ -103,11 +104,11 @@ def run_inference(
         "device": resolved_device,
         "threshold": threshold,
         "positive_pixels": int(mask.sum()),
-        "positive_ratio": float(mask.mean()),
+        "positive_ratio": positive_ratio,
+        "damage_level": damage_level,
         "mask_path": str(mask_path.resolve()),
         "overlay_path": str(overlay_path.resolve()),
         "outline_path": str(outline_path.resolve()),
-        "compare_path": str(compare_path.resolve()),
         "report_path": str(report_path.resolve()),
         "num_tiles": len(windows),
     }

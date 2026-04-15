@@ -39,7 +39,6 @@ def main() -> None:
     print(f"mask: {report['mask_path']}")
     print(f"overlay: {report['overlay_path']}")
     print(f"outline: {report['outline_path']}")
-    print(f"compare: {report['compare_path']}")
     print(f"report: {report['report_path']}")
 
 
