@@ -39,7 +39,7 @@ python scripts/make_label_studio_tasks.py
 
 ## 2. 启动 Label Studio
 
-项目自带的是 shell 脚本（Linux/macOS）。Windows 推荐直接运行：
+Windows 下直接运行：
 
 ```bat
 label-studio start
@@ -112,8 +112,8 @@ python scripts/infer_unetpp.py --checkpoint runs/unetpp_b2_v1/checkpoints/best.p
 
 ## 7. 启动小窗口推理界面
 
-```bash
-.venv/bin/python scripts/infer_gui.py
+```bat
+python scripts/infer_gui.py
 ```
 
 界面支持：
